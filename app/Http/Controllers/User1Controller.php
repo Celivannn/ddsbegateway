@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use Laravel\Lumen\Routing\Controller as BaseController;
-use Illuminate\Http\Request;
-use Illuminate\Http\Response;
-use App\Services\User1Service;
-use App\Traits\ApiResponser;
+use Illuminate\Http\Response; // Response Components
+use App\Traits\ApiResponser; // Use to standardize API responses
+use Illuminate\Http\Request;  // Handling HTTP requests in Lumen
+use App\Services\User1Service; // User1 Service
+use DB;
 
-class User1Controller extends BaseController
+class User1Controller extends Controller
 {
     use ApiResponser;
 
@@ -24,19 +24,23 @@ class User1Controller extends BaseController
         return $this->successResponse($this->user1Service->obtainUsers1());
     }
 
-    public function show($id)
-    {
-        return $this->successResponse($this->user1Service->obtainUser1($id));
-    }
-
     public function add(Request $request)
     {
         return $this->successResponse(
             $this->user1Service->createUser1($request->all()), 
-            Response::HTTP_CREATED
-        );
+            Response::HTTP_CREATED);
     }
-
+    public function getUsers() {
+        try {
+            return response()->json(User::all(), 200);
+        } catch (\Exception $e) {
+            return response()->json(['error' => $e->getMessage()], 500);
+        }
+    }
+    public function show($id)
+    {
+        return $this->successResponse($this->user1Service->obtainUser1($id));
+    }
     public function update(Request $request, $id)
     {
         return $this->successResponse($this->user1Service->editUser1($request->all(), $id));

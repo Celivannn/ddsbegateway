@@ -1,0 +1,140 @@
+[2025-03-29 00:05:10] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 01:29:17] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 01:29:25] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 02:24:51] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 02:30:58] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 02:52:02] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 03:06:30] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 03:06:38] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 03:20:55] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 03:20:58] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 

@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Services;
 
 use App\Traits\ConsumesExternalService;
@@ -8,34 +9,34 @@ class User2Service
     use ConsumesExternalService;
 
     public $baseUri;
+    public $secret;
 
     public function __construct()
     {
         $this->baseUri = config('services.users2.base_uri');
-    }
-
-    public function obtainUsers2()
-    {
-        return $this->performRequest('GET', '/api/users');
-    }
-
-    public function obtainUser2($id)
-    {
-    return $this->performRequest('GET', "/api/users/{$id}");
+        $this->secret = config('services.users2.secret');
     }
 
     public function createUser2($data)
     {
-        return $this->performRequest('POST', '/api/users', $data);
+        return $this->performRequest('POST', '/users', $data);
     }
-
-    public function editUser2($data, $id)
+    public function obtainUsers2() // ✅ Added this method to fetch all users
     {
-        return $this->performRequest('PUT', "/api/users/{$id}", $data);
+        return $this->performRequest('GET', '/users');
     }
-
+    public function obtainUser2($id)
+    {
+        return $this->performRequest('GET', "/users/{$id}");
+    }
+    
+    public function editUser2($data, $id) 
+    {
+        return $this->performRequest('PUT', "/users/{$id}", $data);
+    }
+    
     public function deleteUser2($id)
     {
-        return $this->performRequest('DELETE', "/api/users/{$id}");
+        return $this->performRequest('DELETE', "/users/{$id}");
     }
 }

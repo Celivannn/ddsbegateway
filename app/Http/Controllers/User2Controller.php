@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use Laravel\Lumen\Routing\Controller as BaseController;
-use Illuminate\Http\Request;
-use Illuminate\Http\Response;
-use App\Services\User2Service;
-use App\Traits\ApiResponser;
+use Illuminate\Http\Response; // Response Components
+use App\Traits\ApiResponser; // Use to standardize API responses
+use Illuminate\Http\Request;  // Handling HTTP requests in Lumen
+use App\Services\User2Service; // User2 Service
+use DB;
 
-class User2Controller extends BaseController
+class User2Controller extends Controller
 {
     use ApiResponser;
 
@@ -24,24 +24,31 @@ class User2Controller extends BaseController
         return $this->successResponse($this->user2Service->obtainUsers2());
     }
 
-    public function show($id)
-    {
-        return $this->successResponse($this->user2Service->obtainUser2($id));
-    }
-
     public function add(Request $request)
     {
         return $this->successResponse(
             $this->user2Service->createUser2($request->all()), 
-            Response::HTTP_CREATED
-        );
+            Response::HTTP_CREATED);
     }
-
+    
+    public function getUsers() {
+        try {
+            return response()->json(User::all(), 200);
+        } catch (\Exception $e) {
+            return response()->json(['error' => $e->getMessage()], 500);
+        }
+    }
+    
+    public function show($id)
+    {
+        return $this->successResponse($this->user2Service->obtainUser2($id));
+    }
+    
     public function update(Request $request, $id)
     {
         return $this->successResponse($this->user2Service->editUser2($request->all(), $id));
     }
-
+    
     public function delete($id)
     {
         return $this->successResponse($this->user2Service->deleteUser2($id));
