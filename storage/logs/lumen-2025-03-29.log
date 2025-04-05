@@ -138,3 +138,862 @@
 #9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
 #10 {main}
 "} 
+[2025-03-29 04:23:15] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 04:23:26] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 04:23:40] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 04:23:47] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 05:45:16] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 05:49:13] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 05:49:15] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 05:53:02] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 05:53:03] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 05:58:07] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 05:58:09] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 05:58:21] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 05:59:52] local.ERROR: Unmatched '}' {"exception":"[object] (ParseError(code: 0): Unmatched '}' at C:\\xampp\\htdocs\\ddsbegateway\\routes\\web.php:39)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\bootstrap\\app.php(98): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(14): require('C:\\\\xampp\\\\htdocs...')
+#3 {main}
+"} 
+[2025-03-29 05:59:56] local.ERROR: Unmatched '}' {"exception":"[object] (ParseError(code: 0): Unmatched '}' at C:\\xampp\\htdocs\\ddsbegateway\\routes\\web.php:39)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\bootstrap\\app.php(98): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(14): require('C:\\\\xampp\\\\htdocs...')
+#3 {main}
+"} 
+[2025-03-29 06:06:42] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 06:07:47] local.ERROR: Unauthenticated. {"exception":"[object] (Illuminate\\Auth\\AuthenticationException(code: 0): Unauthenticated. at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\passport\\src\\Http\\Middleware\\CheckCredentials.php:64)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(180): Laravel\\Passport\\Http\\Middleware\\CheckCredentials->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\pipeline\\Pipeline.php(116): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(261): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2025-03-29 06:09:13] local.ERROR: Client error: `POST http://localhost:8000/users` resulted in a `404 Not Found` response:
+{"error":"Not Found","site":1,"code":404}
+ {"exception":"[object] (GuzzleHttp\\Exception\\ClientException(code: 404): Client error: `POST http://localhost:8000/users` resulted in a `404 Not Found` response:
+{\"error\":\"Not Found\",\"site\":1,\"code\":404}
+ at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Exception\\RequestException.php:111)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(72): GuzzleHttp\\Exception\\RequestException::create(Object(GuzzleHttp\\Psr7\\Request), Object(GuzzleHttp\\Psr7\\Response), NULL, Array, NULL)
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(209): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}(Object(GuzzleHttp\\Psr7\\Response))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(158): GuzzleHttp\\Promise\\Promise::callHandler(1, Object(GuzzleHttp\\Psr7\\Response), NULL)
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\TaskQueue.php(52): GuzzleHttp\\Promise\\Promise::GuzzleHttp\\Promise\\{closure}()
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(251): GuzzleHttp\\Promise\\TaskQueue->run(true)
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(227): GuzzleHttp\\Promise\\Promise->invokeWaitFn()
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(272): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(229): GuzzleHttp\\Promise\\Promise->invokeWaitList()
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(69): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#9 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(189): GuzzleHttp\\Promise\\Promise->wait()
+#10 C:\\xampp\\htdocs\\ddsbegateway\\app\\Traits\\ConsumesExternalService.php(20): GuzzleHttp\\Client->request('POST', '/users', Array)
+#11 C:\\xampp\\htdocs\\ddsbegateway\\app\\Services\\User1Service.php(24): App\\Services\\User1Service->performRequest('POST', '/users', Array)
+#12 C:\\xampp\\htdocs\\ddsbegateway\\app\\Http\\Controllers\\User1Controller.php(30): App\\Services\\User1Service->createUser1(Array)
+#13 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\User1Controller->add(Object(Laravel\\Lumen\\Http\\Request))
+#14 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#16 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#19 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(354): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#20 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\User1Controller), 'add', Array)
+#21 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#22 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#23 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#24 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#25 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#27 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#28 {main}
+"} 
+[2025-03-29 06:10:14] local.ERROR: Client error: `POST http://localhost:8000/users` resulted in a `404 Not Found` response:
+{"error":"Not Found","site":1,"code":404}
+ {"exception":"[object] (GuzzleHttp\\Exception\\ClientException(code: 404): Client error: `POST http://localhost:8000/users` resulted in a `404 Not Found` response:
+{\"error\":\"Not Found\",\"site\":1,\"code\":404}
+ at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Exception\\RequestException.php:111)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(72): GuzzleHttp\\Exception\\RequestException::create(Object(GuzzleHttp\\Psr7\\Request), Object(GuzzleHttp\\Psr7\\Response), NULL, Array, NULL)
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(209): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}(Object(GuzzleHttp\\Psr7\\Response))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(158): GuzzleHttp\\Promise\\Promise::callHandler(1, Object(GuzzleHttp\\Psr7\\Response), NULL)
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\TaskQueue.php(52): GuzzleHttp\\Promise\\Promise::GuzzleHttp\\Promise\\{closure}()
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(251): GuzzleHttp\\Promise\\TaskQueue->run(true)
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(227): GuzzleHttp\\Promise\\Promise->invokeWaitFn()
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(272): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(229): GuzzleHttp\\Promise\\Promise->invokeWaitList()
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(69): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#9 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(189): GuzzleHttp\\Promise\\Promise->wait()
+#10 C:\\xampp\\htdocs\\ddsbegateway\\app\\Traits\\ConsumesExternalService.php(20): GuzzleHttp\\Client->request('POST', '/users', Array)
+#11 C:\\xampp\\htdocs\\ddsbegateway\\app\\Services\\User1Service.php(24): App\\Services\\User1Service->performRequest('POST', '/users', Array)
+#12 C:\\xampp\\htdocs\\ddsbegateway\\app\\Http\\Controllers\\User1Controller.php(30): App\\Services\\User1Service->createUser1(Array)
+#13 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\User1Controller->add(Object(Laravel\\Lumen\\Http\\Request))
+#14 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#16 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#19 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(354): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#20 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\User1Controller), 'add', Array)
+#21 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#22 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#23 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#24 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#25 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#27 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#28 {main}
+"} 
+[2025-03-29 06:10:16] local.ERROR: Client error: `POST http://localhost:8000/users` resulted in a `404 Not Found` response:
+{"error":"Not Found","site":1,"code":404}
+ {"exception":"[object] (GuzzleHttp\\Exception\\ClientException(code: 404): Client error: `POST http://localhost:8000/users` resulted in a `404 Not Found` response:
+{\"error\":\"Not Found\",\"site\":1,\"code\":404}
+ at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Exception\\RequestException.php:111)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(72): GuzzleHttp\\Exception\\RequestException::create(Object(GuzzleHttp\\Psr7\\Request), Object(GuzzleHttp\\Psr7\\Response), NULL, Array, NULL)
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(209): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}(Object(GuzzleHttp\\Psr7\\Response))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(158): GuzzleHttp\\Promise\\Promise::callHandler(1, Object(GuzzleHttp\\Psr7\\Response), NULL)
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\TaskQueue.php(52): GuzzleHttp\\Promise\\Promise::GuzzleHttp\\Promise\\{closure}()
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(251): GuzzleHttp\\Promise\\TaskQueue->run(true)
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(227): GuzzleHttp\\Promise\\Promise->invokeWaitFn()
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(272): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(229): GuzzleHttp\\Promise\\Promise->invokeWaitList()
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(69): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#9 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(189): GuzzleHttp\\Promise\\Promise->wait()
+#10 C:\\xampp\\htdocs\\ddsbegateway\\app\\Traits\\ConsumesExternalService.php(20): GuzzleHttp\\Client->request('POST', '/users', Array)
+#11 C:\\xampp\\htdocs\\ddsbegateway\\app\\Services\\User1Service.php(24): App\\Services\\User1Service->performRequest('POST', '/users', Array)
+#12 C:\\xampp\\htdocs\\ddsbegateway\\app\\Http\\Controllers\\User1Controller.php(30): App\\Services\\User1Service->createUser1(Array)
+#13 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\User1Controller->add(Object(Laravel\\Lumen\\Http\\Request))
+#14 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#16 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#19 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(354): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#20 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\User1Controller), 'add', Array)
+#21 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#22 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#23 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#24 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#25 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#27 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#28 {main}
+"} 
+[2025-03-29 06:17:51] local.ERROR: Client error: `POST http://localhost:8000/users` resulted in a `404 Not Found` response:
+{"error":"Not Found","site":1,"code":404}
+ {"exception":"[object] (GuzzleHttp\\Exception\\ClientException(code: 404): Client error: `POST http://localhost:8000/users` resulted in a `404 Not Found` response:
+{\"error\":\"Not Found\",\"site\":1,\"code\":404}
+ at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Exception\\RequestException.php:111)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(72): GuzzleHttp\\Exception\\RequestException::create(Object(GuzzleHttp\\Psr7\\Request), Object(GuzzleHttp\\Psr7\\Response), NULL, Array, NULL)
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(209): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}(Object(GuzzleHttp\\Psr7\\Response))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(158): GuzzleHttp\\Promise\\Promise::callHandler(1, Object(GuzzleHttp\\Psr7\\Response), NULL)
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\TaskQueue.php(52): GuzzleHttp\\Promise\\Promise::GuzzleHttp\\Promise\\{closure}()
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(251): GuzzleHttp\\Promise\\TaskQueue->run(true)
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(227): GuzzleHttp\\Promise\\Promise->invokeWaitFn()
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(272): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(229): GuzzleHttp\\Promise\\Promise->invokeWaitList()
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(69): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#9 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(189): GuzzleHttp\\Promise\\Promise->wait()
+#10 C:\\xampp\\htdocs\\ddsbegateway\\app\\Traits\\ConsumesExternalService.php(20): GuzzleHttp\\Client->request('POST', '/users', Array)
+#11 C:\\xampp\\htdocs\\ddsbegateway\\app\\Services\\User1Service.php(24): App\\Services\\User1Service->performRequest('POST', '/users', Array)
+#12 C:\\xampp\\htdocs\\ddsbegateway\\app\\Http\\Controllers\\User1Controller.php(30): App\\Services\\User1Service->createUser1(Array)
+#13 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\User1Controller->add(Object(Laravel\\Lumen\\Http\\Request))
+#14 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#16 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#19 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(354): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#20 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\User1Controller), 'add', Array)
+#21 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#22 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#23 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#24 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#25 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#27 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#28 {main}
+"} 
+[2025-03-29 06:19:17] local.ERROR: Client error: `POST http://localhost:8000/users` resulted in a `404 Not Found` response:
+{"error":"Not Found","site":1,"code":404}
+ {"exception":"[object] (GuzzleHttp\\Exception\\ClientException(code: 404): Client error: `POST http://localhost:8000/users` resulted in a `404 Not Found` response:
+{\"error\":\"Not Found\",\"site\":1,\"code\":404}
+ at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Exception\\RequestException.php:111)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(72): GuzzleHttp\\Exception\\RequestException::create(Object(GuzzleHttp\\Psr7\\Request), Object(GuzzleHttp\\Psr7\\Response), NULL, Array, NULL)
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(209): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}(Object(GuzzleHttp\\Psr7\\Response))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(158): GuzzleHttp\\Promise\\Promise::callHandler(1, Object(GuzzleHttp\\Psr7\\Response), NULL)
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\TaskQueue.php(52): GuzzleHttp\\Promise\\Promise::GuzzleHttp\\Promise\\{closure}()
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(251): GuzzleHttp\\Promise\\TaskQueue->run(true)
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(227): GuzzleHttp\\Promise\\Promise->invokeWaitFn()
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(272): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(229): GuzzleHttp\\Promise\\Promise->invokeWaitList()
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(69): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#9 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(189): GuzzleHttp\\Promise\\Promise->wait()
+#10 C:\\xampp\\htdocs\\ddsbegateway\\app\\Traits\\ConsumesExternalService.php(20): GuzzleHttp\\Client->request('POST', '/users', Array)
+#11 C:\\xampp\\htdocs\\ddsbegateway\\app\\Services\\User1Service.php(24): App\\Services\\User1Service->performRequest('POST', '/users', Array)
+#12 C:\\xampp\\htdocs\\ddsbegateway\\app\\Http\\Controllers\\User1Controller.php(30): App\\Services\\User1Service->createUser1(Array)
+#13 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\User1Controller->add(Object(Laravel\\Lumen\\Http\\Request))
+#14 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#16 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#19 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(354): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#20 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\User1Controller), 'add', Array)
+#21 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#22 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#23 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#24 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#25 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#27 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#28 {main}
+"} 
+[2025-03-29 06:19:22] local.ERROR: Client error: `POST http://localhost:8000/users` resulted in a `404 Not Found` response:
+{"error":"Not Found","site":1,"code":404}
+ {"exception":"[object] (GuzzleHttp\\Exception\\ClientException(code: 404): Client error: `POST http://localhost:8000/users` resulted in a `404 Not Found` response:
+{\"error\":\"Not Found\",\"site\":1,\"code\":404}
+ at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Exception\\RequestException.php:111)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(72): GuzzleHttp\\Exception\\RequestException::create(Object(GuzzleHttp\\Psr7\\Request), Object(GuzzleHttp\\Psr7\\Response), NULL, Array, NULL)
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(209): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}(Object(GuzzleHttp\\Psr7\\Response))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(158): GuzzleHttp\\Promise\\Promise::callHandler(1, Object(GuzzleHttp\\Psr7\\Response), NULL)
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\TaskQueue.php(52): GuzzleHttp\\Promise\\Promise::GuzzleHttp\\Promise\\{closure}()
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(251): GuzzleHttp\\Promise\\TaskQueue->run(true)
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(227): GuzzleHttp\\Promise\\Promise->invokeWaitFn()
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(272): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(229): GuzzleHttp\\Promise\\Promise->invokeWaitList()
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(69): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#9 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(189): GuzzleHttp\\Promise\\Promise->wait()
+#10 C:\\xampp\\htdocs\\ddsbegateway\\app\\Traits\\ConsumesExternalService.php(20): GuzzleHttp\\Client->request('POST', '/users', Array)
+#11 C:\\xampp\\htdocs\\ddsbegateway\\app\\Services\\User1Service.php(24): App\\Services\\User1Service->performRequest('POST', '/users', Array)
+#12 C:\\xampp\\htdocs\\ddsbegateway\\app\\Http\\Controllers\\User1Controller.php(30): App\\Services\\User1Service->createUser1(Array)
+#13 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\User1Controller->add(Object(Laravel\\Lumen\\Http\\Request))
+#14 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#16 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#19 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(354): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#20 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\User1Controller), 'add', Array)
+#21 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#22 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#23 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#24 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#25 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#27 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#28 {main}
+"} 
+[2025-03-29 06:23:46] local.ERROR: Client error: `POST http://localhost:8000/users` resulted in a `404 Not Found` response:
+{"error":"Not Found","site":1,"code":404}
+ {"exception":"[object] (GuzzleHttp\\Exception\\ClientException(code: 404): Client error: `POST http://localhost:8000/users` resulted in a `404 Not Found` response:
+{\"error\":\"Not Found\",\"site\":1,\"code\":404}
+ at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Exception\\RequestException.php:111)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(72): GuzzleHttp\\Exception\\RequestException::create(Object(GuzzleHttp\\Psr7\\Request), Object(GuzzleHttp\\Psr7\\Response), NULL, Array, NULL)
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(209): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}(Object(GuzzleHttp\\Psr7\\Response))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(158): GuzzleHttp\\Promise\\Promise::callHandler(1, Object(GuzzleHttp\\Psr7\\Response), NULL)
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\TaskQueue.php(52): GuzzleHttp\\Promise\\Promise::GuzzleHttp\\Promise\\{closure}()
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(251): GuzzleHttp\\Promise\\TaskQueue->run(true)
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(227): GuzzleHttp\\Promise\\Promise->invokeWaitFn()
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(272): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(229): GuzzleHttp\\Promise\\Promise->invokeWaitList()
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(69): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#9 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(189): GuzzleHttp\\Promise\\Promise->wait()
+#10 C:\\xampp\\htdocs\\ddsbegateway\\app\\Traits\\ConsumesExternalService.php(20): GuzzleHttp\\Client->request('POST', '/users', Array)
+#11 C:\\xampp\\htdocs\\ddsbegateway\\app\\Services\\User1Service.php(24): App\\Services\\User1Service->performRequest('POST', '/users', Array)
+#12 C:\\xampp\\htdocs\\ddsbegateway\\app\\Http\\Controllers\\User1Controller.php(30): App\\Services\\User1Service->createUser1(Array)
+#13 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\User1Controller->add(Object(Laravel\\Lumen\\Http\\Request))
+#14 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#16 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#19 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(354): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#20 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\User1Controller), 'add', Array)
+#21 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#22 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#23 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#24 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#25 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#27 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#28 {main}
+"} 
+[2025-03-29 06:28:28] local.ERROR: Client error: `POST http://localhost:8001/users` resulted in a `404 Not Found` response:
+{"error":"Not Found","site":2,"code":404}
+ {"exception":"[object] (GuzzleHttp\\Exception\\ClientException(code: 404): Client error: `POST http://localhost:8001/users` resulted in a `404 Not Found` response:
+{\"error\":\"Not Found\",\"site\":2,\"code\":404}
+ at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Exception\\RequestException.php:111)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(72): GuzzleHttp\\Exception\\RequestException::create(Object(GuzzleHttp\\Psr7\\Request), Object(GuzzleHttp\\Psr7\\Response), NULL, Array, NULL)
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(209): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}(Object(GuzzleHttp\\Psr7\\Response))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(158): GuzzleHttp\\Promise\\Promise::callHandler(1, Object(GuzzleHttp\\Psr7\\Response), NULL)
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\TaskQueue.php(52): GuzzleHttp\\Promise\\Promise::GuzzleHttp\\Promise\\{closure}()
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(251): GuzzleHttp\\Promise\\TaskQueue->run(true)
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(227): GuzzleHttp\\Promise\\Promise->invokeWaitFn()
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(272): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(229): GuzzleHttp\\Promise\\Promise->invokeWaitList()
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(69): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#9 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(189): GuzzleHttp\\Promise\\Promise->wait()
+#10 C:\\xampp\\htdocs\\ddsbegateway\\app\\Traits\\ConsumesExternalService.php(20): GuzzleHttp\\Client->request('POST', '/users', Array)
+#11 C:\\xampp\\htdocs\\ddsbegateway\\app\\Services\\User2Service.php(22): App\\Services\\User2Service->performRequest('POST', '/users', Array)
+#12 C:\\xampp\\htdocs\\ddsbegateway\\app\\Http\\Controllers\\User2Controller.php(30): App\\Services\\User2Service->createUser2(Array)
+#13 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\User2Controller->add(Object(Laravel\\Lumen\\Http\\Request))
+#14 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#16 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#19 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(354): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#20 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\User2Controller), 'add', Array)
+#21 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#22 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#23 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#24 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#25 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#27 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#28 {main}
+"} 
+[2025-03-29 06:30:15] local.ERROR: Client error: `POST http://localhost:8001/users` resulted in a `404 Not Found` response:
+{"error":"Not Found","site":2,"code":404}
+ {"exception":"[object] (GuzzleHttp\\Exception\\ClientException(code: 404): Client error: `POST http://localhost:8001/users` resulted in a `404 Not Found` response:
+{\"error\":\"Not Found\",\"site\":2,\"code\":404}
+ at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Exception\\RequestException.php:111)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(72): GuzzleHttp\\Exception\\RequestException::create(Object(GuzzleHttp\\Psr7\\Request), Object(GuzzleHttp\\Psr7\\Response), NULL, Array, NULL)
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(209): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}(Object(GuzzleHttp\\Psr7\\Response))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(158): GuzzleHttp\\Promise\\Promise::callHandler(1, Object(GuzzleHttp\\Psr7\\Response), NULL)
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\TaskQueue.php(52): GuzzleHttp\\Promise\\Promise::GuzzleHttp\\Promise\\{closure}()
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(251): GuzzleHttp\\Promise\\TaskQueue->run(true)
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(227): GuzzleHttp\\Promise\\Promise->invokeWaitFn()
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(272): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(229): GuzzleHttp\\Promise\\Promise->invokeWaitList()
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(69): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#9 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(189): GuzzleHttp\\Promise\\Promise->wait()
+#10 C:\\xampp\\htdocs\\ddsbegateway\\app\\Traits\\ConsumesExternalService.php(20): GuzzleHttp\\Client->request('POST', '/users', Array)
+#11 C:\\xampp\\htdocs\\ddsbegateway\\app\\Services\\User2Service.php(22): App\\Services\\User2Service->performRequest('POST', '/users', Array)
+#12 C:\\xampp\\htdocs\\ddsbegateway\\app\\Http\\Controllers\\User2Controller.php(30): App\\Services\\User2Service->createUser2(Array)
+#13 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\User2Controller->add(Object(Laravel\\Lumen\\Http\\Request))
+#14 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#16 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#19 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(354): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#20 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\User2Controller), 'add', Array)
+#21 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#22 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#23 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#24 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#25 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#27 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#28 {main}
+"} 
+[2025-03-29 06:30:24] local.ERROR: Client error: `POST http://localhost:8000/users` resulted in a `401 Unauthorized` response:
+{"error":"Unauthorized","site":1,"code":401}
+ {"exception":"[object] (GuzzleHttp\\Exception\\ClientException(code: 401): Client error: `POST http://localhost:8000/users` resulted in a `401 Unauthorized` response:
+{\"error\":\"Unauthorized\",\"site\":1,\"code\":401}
+ at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Exception\\RequestException.php:111)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(72): GuzzleHttp\\Exception\\RequestException::create(Object(GuzzleHttp\\Psr7\\Request), Object(GuzzleHttp\\Psr7\\Response), NULL, Array, NULL)
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(209): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}(Object(GuzzleHttp\\Psr7\\Response))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(158): GuzzleHttp\\Promise\\Promise::callHandler(1, Object(GuzzleHttp\\Psr7\\Response), NULL)
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\TaskQueue.php(52): GuzzleHttp\\Promise\\Promise::GuzzleHttp\\Promise\\{closure}()
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(251): GuzzleHttp\\Promise\\TaskQueue->run(true)
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(227): GuzzleHttp\\Promise\\Promise->invokeWaitFn()
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(272): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(229): GuzzleHttp\\Promise\\Promise->invokeWaitList()
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(69): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#9 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(189): GuzzleHttp\\Promise\\Promise->wait()
+#10 C:\\xampp\\htdocs\\ddsbegateway\\app\\Traits\\ConsumesExternalService.php(20): GuzzleHttp\\Client->request('POST', '/users', Array)
+#11 C:\\xampp\\htdocs\\ddsbegateway\\app\\Services\\User1Service.php(20): App\\Services\\User1Service->performRequest('POST', '/users', Array)
+#12 C:\\xampp\\htdocs\\ddsbegateway\\app\\Http\\Controllers\\User1Controller.php(30): App\\Services\\User1Service->createUser1(Array)
+#13 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\User1Controller->add(Object(Laravel\\Lumen\\Http\\Request))
+#14 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#16 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#19 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(354): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#20 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\User1Controller), 'add', Array)
+#21 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#22 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#23 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#24 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#25 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#27 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#28 {main}
+"} 
+[2025-03-29 06:30:25] local.ERROR: Client error: `POST http://localhost:8000/users` resulted in a `401 Unauthorized` response:
+{"error":"Unauthorized","site":1,"code":401}
+ {"exception":"[object] (GuzzleHttp\\Exception\\ClientException(code: 401): Client error: `POST http://localhost:8000/users` resulted in a `401 Unauthorized` response:
+{\"error\":\"Unauthorized\",\"site\":1,\"code\":401}
+ at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Exception\\RequestException.php:111)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(72): GuzzleHttp\\Exception\\RequestException::create(Object(GuzzleHttp\\Psr7\\Request), Object(GuzzleHttp\\Psr7\\Response), NULL, Array, NULL)
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(209): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}(Object(GuzzleHttp\\Psr7\\Response))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(158): GuzzleHttp\\Promise\\Promise::callHandler(1, Object(GuzzleHttp\\Psr7\\Response), NULL)
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\TaskQueue.php(52): GuzzleHttp\\Promise\\Promise::GuzzleHttp\\Promise\\{closure}()
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(251): GuzzleHttp\\Promise\\TaskQueue->run(true)
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(227): GuzzleHttp\\Promise\\Promise->invokeWaitFn()
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(272): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(229): GuzzleHttp\\Promise\\Promise->invokeWaitList()
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(69): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#9 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(189): GuzzleHttp\\Promise\\Promise->wait()
+#10 C:\\xampp\\htdocs\\ddsbegateway\\app\\Traits\\ConsumesExternalService.php(20): GuzzleHttp\\Client->request('POST', '/users', Array)
+#11 C:\\xampp\\htdocs\\ddsbegateway\\app\\Services\\User1Service.php(20): App\\Services\\User1Service->performRequest('POST', '/users', Array)
+#12 C:\\xampp\\htdocs\\ddsbegateway\\app\\Http\\Controllers\\User1Controller.php(30): App\\Services\\User1Service->createUser1(Array)
+#13 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\User1Controller->add(Object(Laravel\\Lumen\\Http\\Request))
+#14 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#16 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#19 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(354): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#20 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\User1Controller), 'add', Array)
+#21 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#22 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#23 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#24 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#25 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#27 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#28 {main}
+"} 
+[2025-03-29 06:31:01] local.ERROR: Client error: `GET http://localhost:8000/users` resulted in a `401 Unauthorized` response:
+{"error":"Unauthorized","site":1,"code":401}
+ {"exception":"[object] (GuzzleHttp\\Exception\\ClientException(code: 401): Client error: `GET http://localhost:8000/users` resulted in a `401 Unauthorized` response:
+{\"error\":\"Unauthorized\",\"site\":1,\"code\":401}
+ at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Exception\\RequestException.php:111)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(72): GuzzleHttp\\Exception\\RequestException::create(Object(GuzzleHttp\\Psr7\\Request), Object(GuzzleHttp\\Psr7\\Response), NULL, Array, NULL)
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(209): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}(Object(GuzzleHttp\\Psr7\\Response))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(158): GuzzleHttp\\Promise\\Promise::callHandler(1, Object(GuzzleHttp\\Psr7\\Response), NULL)
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\TaskQueue.php(52): GuzzleHttp\\Promise\\Promise::GuzzleHttp\\Promise\\{closure}()
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(251): GuzzleHttp\\Promise\\TaskQueue->run(true)
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(227): GuzzleHttp\\Promise\\Promise->invokeWaitFn()
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(272): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(229): GuzzleHttp\\Promise\\Promise->invokeWaitList()
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(69): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#9 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(189): GuzzleHttp\\Promise\\Promise->wait()
+#10 C:\\xampp\\htdocs\\ddsbegateway\\app\\Traits\\ConsumesExternalService.php(20): GuzzleHttp\\Client->request('GET', '/users', Array)
+#11 C:\\xampp\\htdocs\\ddsbegateway\\app\\Services\\User1Service.php(25): App\\Services\\User1Service->performRequest('GET', '/users')
+#12 C:\\xampp\\htdocs\\ddsbegateway\\app\\Http\\Controllers\\User1Controller.php(24): App\\Services\\User1Service->obtainUsers1()
+#13 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\User1Controller->index()
+#14 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#16 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#19 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(354): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#20 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\User1Controller), 'index', Array)
+#21 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#22 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#23 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#24 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#25 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#27 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#28 {main}
+"} 
+[2025-03-29 06:31:04] local.ERROR: Client error: `GET http://localhost:8000/users` resulted in a `401 Unauthorized` response:
+{"error":"Unauthorized","site":1,"code":401}
+ {"exception":"[object] (GuzzleHttp\\Exception\\ClientException(code: 401): Client error: `GET http://localhost:8000/users` resulted in a `401 Unauthorized` response:
+{\"error\":\"Unauthorized\",\"site\":1,\"code\":401}
+ at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Exception\\RequestException.php:111)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(72): GuzzleHttp\\Exception\\RequestException::create(Object(GuzzleHttp\\Psr7\\Request), Object(GuzzleHttp\\Psr7\\Response), NULL, Array, NULL)
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(209): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}(Object(GuzzleHttp\\Psr7\\Response))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(158): GuzzleHttp\\Promise\\Promise::callHandler(1, Object(GuzzleHttp\\Psr7\\Response), NULL)
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\TaskQueue.php(52): GuzzleHttp\\Promise\\Promise::GuzzleHttp\\Promise\\{closure}()
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(251): GuzzleHttp\\Promise\\TaskQueue->run(true)
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(227): GuzzleHttp\\Promise\\Promise->invokeWaitFn()
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(272): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(229): GuzzleHttp\\Promise\\Promise->invokeWaitList()
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(69): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#9 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(189): GuzzleHttp\\Promise\\Promise->wait()
+#10 C:\\xampp\\htdocs\\ddsbegateway\\app\\Traits\\ConsumesExternalService.php(20): GuzzleHttp\\Client->request('GET', '/users', Array)
+#11 C:\\xampp\\htdocs\\ddsbegateway\\app\\Services\\User1Service.php(25): App\\Services\\User1Service->performRequest('GET', '/users')
+#12 C:\\xampp\\htdocs\\ddsbegateway\\app\\Http\\Controllers\\User1Controller.php(24): App\\Services\\User1Service->obtainUsers1()
+#13 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\User1Controller->index()
+#14 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#16 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#19 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(354): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#20 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\User1Controller), 'index', Array)
+#21 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#22 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#23 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#24 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#25 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#27 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#28 {main}
+"} 
+[2025-03-29 06:32:06] local.ERROR: Client error: `POST http://localhost:8000/users` resulted in a `404 Not Found` response:
+{"error":"Not Found","site":1,"code":404}
+ {"exception":"[object] (GuzzleHttp\\Exception\\ClientException(code: 404): Client error: `POST http://localhost:8000/users` resulted in a `404 Not Found` response:
+{\"error\":\"Not Found\",\"site\":1,\"code\":404}
+ at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Exception\\RequestException.php:111)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(72): GuzzleHttp\\Exception\\RequestException::create(Object(GuzzleHttp\\Psr7\\Request), Object(GuzzleHttp\\Psr7\\Response), NULL, Array, NULL)
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(209): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}(Object(GuzzleHttp\\Psr7\\Response))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(158): GuzzleHttp\\Promise\\Promise::callHandler(1, Object(GuzzleHttp\\Psr7\\Response), NULL)
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\TaskQueue.php(52): GuzzleHttp\\Promise\\Promise::GuzzleHttp\\Promise\\{closure}()
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(251): GuzzleHttp\\Promise\\TaskQueue->run(true)
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(227): GuzzleHttp\\Promise\\Promise->invokeWaitFn()
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(272): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(229): GuzzleHttp\\Promise\\Promise->invokeWaitList()
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(69): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#9 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(189): GuzzleHttp\\Promise\\Promise->wait()
+#10 C:\\xampp\\htdocs\\ddsbegateway\\app\\Traits\\ConsumesExternalService.php(20): GuzzleHttp\\Client->request('POST', '/users', Array)
+#11 C:\\xampp\\htdocs\\ddsbegateway\\app\\Services\\User1Service.php(24): App\\Services\\User1Service->performRequest('POST', '/users', Array)
+#12 C:\\xampp\\htdocs\\ddsbegateway\\app\\Http\\Controllers\\User1Controller.php(30): App\\Services\\User1Service->createUser1(Array)
+#13 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\User1Controller->add(Object(Laravel\\Lumen\\Http\\Request))
+#14 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#16 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#19 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(354): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#20 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\User1Controller), 'add', Array)
+#21 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#22 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#23 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#24 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#25 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#27 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#28 {main}
+"} 
+[2025-03-29 06:39:28] local.ERROR: Client error: `POST http://localhost:8000/users` resulted in a `404 Not Found` response:
+{"error":"Not Found","site":1,"code":404}
+ {"exception":"[object] (GuzzleHttp\\Exception\\ClientException(code: 404): Client error: `POST http://localhost:8000/users` resulted in a `404 Not Found` response:
+{\"error\":\"Not Found\",\"site\":1,\"code\":404}
+ at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Exception\\RequestException.php:111)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(72): GuzzleHttp\\Exception\\RequestException::create(Object(GuzzleHttp\\Psr7\\Request), Object(GuzzleHttp\\Psr7\\Response), NULL, Array, NULL)
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(209): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}(Object(GuzzleHttp\\Psr7\\Response))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(158): GuzzleHttp\\Promise\\Promise::callHandler(1, Object(GuzzleHttp\\Psr7\\Response), NULL)
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\TaskQueue.php(52): GuzzleHttp\\Promise\\Promise::GuzzleHttp\\Promise\\{closure}()
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(251): GuzzleHttp\\Promise\\TaskQueue->run(true)
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(227): GuzzleHttp\\Promise\\Promise->invokeWaitFn()
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(272): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(229): GuzzleHttp\\Promise\\Promise->invokeWaitList()
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(69): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#9 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(189): GuzzleHttp\\Promise\\Promise->wait()
+#10 C:\\xampp\\htdocs\\ddsbegateway\\app\\Traits\\ConsumesExternalService.php(20): GuzzleHttp\\Client->request('POST', '/users', Array)
+#11 C:\\xampp\\htdocs\\ddsbegateway\\app\\Services\\User1Service.php(24): App\\Services\\User1Service->performRequest('POST', '/users', Array)
+#12 C:\\xampp\\htdocs\\ddsbegateway\\app\\Http\\Controllers\\User1Controller.php(30): App\\Services\\User1Service->createUser1(Array)
+#13 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\User1Controller->add(Object(Laravel\\Lumen\\Http\\Request))
+#14 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#16 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#19 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(354): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#20 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\User1Controller), 'add', Array)
+#21 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#22 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#23 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#24 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#25 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#27 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#28 {main}
+"} 
+[2025-03-29 06:39:30] local.ERROR: Client error: `POST http://localhost:8000/users` resulted in a `404 Not Found` response:
+{"error":"Not Found","site":1,"code":404}
+ {"exception":"[object] (GuzzleHttp\\Exception\\ClientException(code: 404): Client error: `POST http://localhost:8000/users` resulted in a `404 Not Found` response:
+{\"error\":\"Not Found\",\"site\":1,\"code\":404}
+ at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Exception\\RequestException.php:111)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(72): GuzzleHttp\\Exception\\RequestException::create(Object(GuzzleHttp\\Psr7\\Request), Object(GuzzleHttp\\Psr7\\Response), NULL, Array, NULL)
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(209): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}(Object(GuzzleHttp\\Psr7\\Response))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(158): GuzzleHttp\\Promise\\Promise::callHandler(1, Object(GuzzleHttp\\Psr7\\Response), NULL)
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\TaskQueue.php(52): GuzzleHttp\\Promise\\Promise::GuzzleHttp\\Promise\\{closure}()
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(251): GuzzleHttp\\Promise\\TaskQueue->run(true)
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(227): GuzzleHttp\\Promise\\Promise->invokeWaitFn()
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(272): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(229): GuzzleHttp\\Promise\\Promise->invokeWaitList()
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(69): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#9 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(189): GuzzleHttp\\Promise\\Promise->wait()
+#10 C:\\xampp\\htdocs\\ddsbegateway\\app\\Traits\\ConsumesExternalService.php(20): GuzzleHttp\\Client->request('POST', '/users', Array)
+#11 C:\\xampp\\htdocs\\ddsbegateway\\app\\Services\\User1Service.php(24): App\\Services\\User1Service->performRequest('POST', '/users', Array)
+#12 C:\\xampp\\htdocs\\ddsbegateway\\app\\Http\\Controllers\\User1Controller.php(30): App\\Services\\User1Service->createUser1(Array)
+#13 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\User1Controller->add(Object(Laravel\\Lumen\\Http\\Request))
+#14 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#16 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#19 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(354): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#20 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\User1Controller), 'add', Array)
+#21 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#22 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#23 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#24 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#25 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#27 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#28 {main}
+"} 
+[2025-03-29 06:45:49] local.ERROR: Client error: `GET http://localhost:8000/users/usersjob` resulted in a `404 Not Found` response:
+{"error":"Does not exist any instance of User with the given id","code":404}
+ {"exception":"[object] (GuzzleHttp\\Exception\\ClientException(code: 404): Client error: `GET http://localhost:8000/users/usersjob` resulted in a `404 Not Found` response:
+{\"error\":\"Does not exist any instance of User with the given id\",\"code\":404}
+ at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Exception\\RequestException.php:111)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(72): GuzzleHttp\\Exception\\RequestException::create(Object(GuzzleHttp\\Psr7\\Request), Object(GuzzleHttp\\Psr7\\Response), NULL, Array, NULL)
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(209): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}(Object(GuzzleHttp\\Psr7\\Response))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(158): GuzzleHttp\\Promise\\Promise::callHandler(1, Object(GuzzleHttp\\Psr7\\Response), NULL)
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\TaskQueue.php(52): GuzzleHttp\\Promise\\Promise::GuzzleHttp\\Promise\\{closure}()
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(251): GuzzleHttp\\Promise\\TaskQueue->run(true)
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(227): GuzzleHttp\\Promise\\Promise->invokeWaitFn()
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(272): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(229): GuzzleHttp\\Promise\\Promise->invokeWaitList()
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(69): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#9 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(189): GuzzleHttp\\Promise\\Promise->wait()
+#10 C:\\xampp\\htdocs\\ddsbegateway\\app\\Traits\\ConsumesExternalService.php(20): GuzzleHttp\\Client->request('GET', '/users/usersjob', Array)
+#11 C:\\xampp\\htdocs\\ddsbegateway\\app\\Services\\User1Service.php(32): App\\Services\\User1Service->performRequest('GET', '/users/usersjob')
+#12 C:\\xampp\\htdocs\\ddsbegateway\\app\\Http\\Controllers\\User1Controller.php(42): App\\Services\\User1Service->obtainUser1('usersjob')
+#13 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\User1Controller->show('usersjob')
+#14 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#16 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#19 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(354): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#20 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\User1Controller), 'show', Array)
+#21 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#22 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#23 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(237): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#24 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->handleDispatcherResponse(Array)
+#25 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#26 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#27 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#28 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#29 {main}
+"} 
+[2025-03-29 06:51:30] local.ERROR: Client error: `POST http://localhost:8001/users` resulted in a `422 Unprocessable Content` response:
+{"error":{"password":["The password field is required."]},"site":2,"code":422}
+ {"exception":"[object] (GuzzleHttp\\Exception\\ClientException(code: 422): Client error: `POST http://localhost:8001/users` resulted in a `422 Unprocessable Content` response:
+{\"error\":{\"password\":[\"The password field is required.\"]},\"site\":2,\"code\":422}
+ at C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Exception\\RequestException.php:111)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Middleware.php(72): GuzzleHttp\\Exception\\RequestException::create(Object(GuzzleHttp\\Psr7\\Request), Object(GuzzleHttp\\Psr7\\Response), NULL, Array, NULL)
+#1 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(209): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}(Object(GuzzleHttp\\Psr7\\Response))
+#2 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(158): GuzzleHttp\\Promise\\Promise::callHandler(1, Object(GuzzleHttp\\Psr7\\Response), NULL)
+#3 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\TaskQueue.php(52): GuzzleHttp\\Promise\\Promise::GuzzleHttp\\Promise\\{closure}()
+#4 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(251): GuzzleHttp\\Promise\\TaskQueue->run(true)
+#5 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(227): GuzzleHttp\\Promise\\Promise->invokeWaitFn()
+#6 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(272): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#7 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(229): GuzzleHttp\\Promise\\Promise->invokeWaitList()
+#8 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\promises\\src\\Promise.php(69): GuzzleHttp\\Promise\\Promise->waitIfPending()
+#9 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\guzzlehttp\\guzzle\\src\\Client.php(189): GuzzleHttp\\Promise\\Promise->wait()
+#10 C:\\xampp\\htdocs\\ddsbegateway\\app\\Traits\\ConsumesExternalService.php(20): GuzzleHttp\\Client->request('POST', '/users', Array)
+#11 C:\\xampp\\htdocs\\ddsbegateway\\app\\Services\\User2Service.php(22): App\\Services\\User2Service->performRequest('POST', '/users', Array)
+#12 C:\\xampp\\htdocs\\ddsbegateway\\app\\Http\\Controllers\\User2Controller.php(30): App\\Services\\User2Service->createUser2(Array)
+#13 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\User2Controller->add(Object(Laravel\\Lumen\\Http\\Request))
+#14 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#16 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\illuminate\\container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#19 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(354): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#20 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\User2Controller), 'add', Array)
+#21 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#22 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#23 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#24 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#25 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\ddsbegateway\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#27 C:\\xampp\\htdocs\\ddsbegateway\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#28 {main}
+"} 
