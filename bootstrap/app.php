@@ -83,7 +83,7 @@ $app->routeMiddleware([
    $app->register(Dusterio\LumenPassport\PassportServiceProvider::class);
 
    //$app->register(App\Providers\EventServiceProvider::class);
-
+ 
 /*
 |--------------------------------------------------------------------------
 | Load The Application Routes

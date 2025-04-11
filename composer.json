@@ -9,7 +9,7 @@
         "dusterio/lumen-passport": "^0.3.2",
         "guzzlehttp/guzzle": "^7.9",
         "laravel/lumen-framework": "9.0",
-        "laravel/passport": "*",
+        "laravel/passport": "10.4",
         "predis/predis": "^2.3"
     },
     "require-dev": {
